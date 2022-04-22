@@ -7,15 +7,15 @@ Si te adentras en este código podrás ver algunas de las cosas que he ido apren
 
 Para teléfono móvil:
 
-<img src="/desing/Mvl.png" alt="mobile"/>
+<img src="./desing/Mvl.png" alt="mobile"/>
 
 Para tablet:
 
-<img src="/desing/Tablet.png" alt="mobile"/>
+<img src="./desing/Tablet.png" alt="tablet"/>
 
 Para desktop:
 
-<img src="/desing/desktop.png" alt="mobile"/>
+<img src="./desing/desktop.png" alt="desktop"/>
 
 ## Herramientas utilizadas 🛠️
 
