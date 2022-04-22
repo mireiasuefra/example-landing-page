@@ -1,0 +1,127 @@
+.footer {
+  background-color: #0271bc;
+  color: black;
+  font-family: $principal-font;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  & a {
+    color: black;
+    text-transform: uppercase;
+  }
+
+  &-links__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @media (min-width: $breakpoint-tablet) {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: start;
+    }
+  }
+
+  &-links__nav {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: none;
+    }
+  }
+
+  &-links__social {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    order: 2;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-bottom: 45px;
+    }
+  }
+
+  &-links__span {
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    order: 3;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-botton: none;
+    }
+  }
+}
+
+.icon-scroll {
+  background-color: $base-color;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-17px);
+  animation-name: scroll;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  @keyframes scroll {
+    0% {
+      background-color: $base-color;
+    }
+    25% {
+      background-color: $light-background;
+    }
+    50% {
+      background-color: $dark-background;
+    }
+    75% {
+      background-color: $light-background;
+    }
+    100% {
+      background-color: $base-color;
+    }
+  }
+}
+
+.heart {
+  color: $highlighted-color;
+}
+
+.comp {
+
+  color: $base-color;
+
+  @media (min-width: $breakpoint-tablet)  {
+    color: $highlighted-color;
+  }
+
+  @media (min-width: $breakpoint-desktop)  {
+    color: $base-color;
+  }
+}

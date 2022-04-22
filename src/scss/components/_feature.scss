@@ -1,0 +1,19 @@
+.feature {
+  text-align: center;
+  font-size: 18px;
+
+  &__title {
+    font-weight: bold;
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 40px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.tip {
+  min-width: 200px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  @media (min-width: $breakpoint-tablet) {
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    color: #8ccbea;
+    margin-top: 30px;
+
+    @media (min-width: $breakpoint-desktop) {
+      font-size: 16px;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-top: 1px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 26px;
+      margin-top: 10px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      font-size: 32px;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+
+  &__button {
+    font-size: 20px;
+    color: $highlighted-color;
+    background-color: $base-color;
+    text-align: center;
+    border: 2px solid $highlighted-color;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    transition: background-color ease 2s, color ease 2s, border ease 2s;
+    &:hover {
+      background-color: $light-background;
+      color: $dark-background;
+      border: 2px solid $dark-background;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      padding-left: 67px;
+      padding-right: 67px;
+    }
+  }
+}
