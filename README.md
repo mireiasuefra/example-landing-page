@@ -7,15 +7,16 @@ Si te adentras en este código podrás ver algunas de las cosas que he ido apren
 
 Para teléfono móvil:
 
-<img src="./desing/Mvl.png" alt="mobile"/>
+
+![mobile image](https://github.com/mireiasuefra/example-landing-page/blob/main/design/Mvl.png)
 
 Para tablet:
 
-<img src="./desing/Tablet.png" alt="tablet"/>
+![tablet image](https://github.com/mireiasuefra/example-landing-page/blob/main/design/Tablet.png)
 
 Para desktop:
 
-<img src="./desing/desktop.png" alt="desktop"/>
+![desktop image](https://github.com/mireiasuefra/example-landing-page/blob/main/design/Desktop.png)
 
 ## Herramientas utilizadas 🛠️
 
